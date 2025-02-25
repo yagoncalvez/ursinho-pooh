@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro - Ursinho Pooh</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body style="background-color: #ffeb3b; font-family: 'Arial', sans-serif;">
+
+    <header>
+        <div style="margin: 25px; border: 4px solid #f90; background: #f90;">
+            <h1 style="color: #c60404; text-align: center;">Cadastro</h1>
+            <nav style="text-align: center;">
+                <a href="index.html"><button>Início</button></a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div style="width: 50%; margin: 50px auto; padding: 20px; background: #fff; border-radius: 15px;">
+            <h2 style="text-align: center;">Criar uma conta</h2>
+            <form id="formCadastro" action="#" method="POST">
+                <label for="nome">Nome:</label><br>
+                <input type="text" id="nome" name="nome" required><br><br>
+                
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required><br><br>
+                
+                <label for="senha">Senha:</label><br>
+                <input type="password" id="senha" name="senha" required><br><br>
+                
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+
+        <!-- Lista de usuários cadastrados -->
+        <div style="width: 50%; margin: 50px auto; padding: 20px; background: #fff; border-radius: 15px;">
+            <h2 style="text-align: center;">Usuários Cadastrados</h2>
+            <ul id="listaUsuarios">
+                <!-- Usuários serão listados aqui -->
+            </ul>
+        </div>
+    </main>
+
+    <script src="cadastro.js"></script>
+    
+</body>
+</html>

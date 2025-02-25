@@ -1,0 +1,31 @@
+body {
+    background-color: #ffeb3b;
+    font-family: 'Arial', sans-serif;
+}
+
+button {
+    background-color: #f90;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c60404;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    background-color: #ffeb3b;
+    padding: 20px 0;
+}
+
+main {
+    margin: 20px;
+}
